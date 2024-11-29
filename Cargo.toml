@@ -1,0 +1,11 @@
+[package]
+name = "pin-rs"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+
+[build-dependencies]
+flate2 = "1.0.35"
+reqwest = { version = "0.12.9", features = ["blocking", "rustls-tls"] }
+tar = "0.4.43"
